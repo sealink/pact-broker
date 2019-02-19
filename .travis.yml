@@ -1,0 +1,14 @@
+language: minimal
+before_deploy:
+  - "export ELASTIC_BEANSTALK_LABEL=$TRAVIS_TAG"
+deploy:
+  - provider: elasticbeanstalk
+    only_create_app_version: "false"
+    region: "ap-southeast-2"
+    app: "Pact Broker"
+    env: "pact-broker"
+    bucket_name: "pact-eb-deployments"
+    skip_cleanup: true
+    on:
+      all_branches: true
+      tags: true
