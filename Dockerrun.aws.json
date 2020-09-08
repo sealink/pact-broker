@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
   "Image": {
-    "Name": "dius/pact-broker:2.59.2.0"
+    "Name": "dius/pact-broker:2.60.0.0"
   },
   "Ports": [
     {
