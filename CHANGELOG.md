@@ -1,4 +1,4 @@
-## 2.60.0.0 Unreleased
+## 2.60.0.0
 
 * [TT-7269] - Update to version 2.60.0.0
 
