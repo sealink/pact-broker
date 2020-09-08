@@ -1,4 +1,8 @@
-## 2.52.2-1 Unreleased
+## 2.59.2-0 Unreleased
+
+* [TT-7269] - Update to version 2.59.2-0
+
+## 2.52.2-1
 
 * [TT-7269] - Update to version 2.52.2-1
 
